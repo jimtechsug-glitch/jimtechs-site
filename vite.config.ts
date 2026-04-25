@@ -5,3 +5,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/jimtechs-site/',
 })
+// Trigger build after billing update

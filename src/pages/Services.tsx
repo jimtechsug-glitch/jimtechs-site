@@ -4,37 +4,37 @@ export default function Services() {
   const services = [
     {
       title: 'Network Design & Implementation',
-      image: '/images/services/network-design.png',
+      image: `${import.meta.env.BASE_URL}images/services/network-design.png`,
       description: 'Design and deploy robust network infrastructure tailored to your business requirements.',
       features: ['Network Planning', 'Infrastructure Setup', 'Security Configuration']
     },
     {
       title: 'IT Infrastructure Management',
-      image: '/images/services/infrastructure.png',
+      image: `${import.meta.env.BASE_URL}images/services/infrastructure.png`,
       description: 'Comprehensive management of your IT infrastructure to ensure optimal performance.',
       features: ['Server Management', 'Cloud Solutions', 'Monitoring & Maintenance']
     },
     {
       title: 'Cybersecurity Solutions',
-      image: '/images/services/cybersecurity.png',
+      image: `${import.meta.env.BASE_URL}images/services/cybersecurity.png`,
       description: 'Protect your business with advanced security measures and threat prevention.',
       features: ['Security Audits', 'Firewall Management', 'Data Protection']
     },
     {
       title: 'IT Consulting',
-      image: '/images/services/consulting.png',
+      image: `${import.meta.env.BASE_URL}images/services/consulting.png`,
       description: 'Expert advice on IT strategy and digital transformation initiatives.',
       features: ['Strategic Planning', 'Technology Assessment', 'Best Practices']
     },
     {
       title: 'System Administration',
-      image: '/images/services/sysadmin.png',
+      image: `${import.meta.env.BASE_URL}images/services/sysadmin.png`,
       description: 'Professional system administration to keep your operations running smoothly.',
       features: ['User Management', 'System Maintenance', 'Backup Solutions']
     },
     {
       title: 'Technical Support',
-      image: '/images/services/support.png',
+      image: `${import.meta.env.BASE_URL}images/services/support.png`,
       description: '24/7 technical support to resolve issues and minimize downtime.',
       features: ['Help Desk Support', 'Incident Management', 'Ticketing System']
     }

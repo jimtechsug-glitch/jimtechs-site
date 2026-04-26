@@ -6,22 +6,22 @@ export default function Home() {
 
   const slides = [
     {
-      image: encodeURI('/images/home/lab 3.jpg'),
+      image: encodeURI(`${import.meta.env.BASE_URL}images/home/lab 3.jpg`),
       title: 'State of the Art School Labs',
       subtitle: 'Building Robust School Labs for Digital Learning'
     },
     {
-      image: encodeURI('/images/home/network 3.jpg'),
+      image: encodeURI(`${import.meta.env.BASE_URL}images/home/network 3.jpg`),
       title: 'Networks and Computer Accessories Solutions',
       subtitle: 'Building Robust networks and IT infrastructure for modernSchools and Enterprises'
     },
     {
-      image: encodeURI('/images/home/camera 2.jpg'),
+      image: encodeURI(`${import.meta.env.BASE_URL}images/home/camera 2.jpg`),
       title: 'Strategic CCTV and Security Solutions',
       subtitle: 'Setting up CCTV and Security Systems for institutions, homes and Enterprises'
     },
     {
-      image: '/images/home/lab.jpg',
+      image: `${import.meta.env.BASE_URL}images/home/lab.jpg`,
       title: 'Providing the Digital Environment for All',
       subtitle: 'Creating the Digital environment for your home, business and other learning institutions'
     }

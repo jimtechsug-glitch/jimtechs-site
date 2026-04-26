@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Pages.css'
 
 export default function Projects() {
@@ -106,7 +107,7 @@ export default function Projects() {
         <p>
           Let's collaborate to bring your vision to life with world-class IT and networking solutions.
         </p>
-        <a href="/contact" className="cta-button">Start a Project</a>
+        <Link to="/contact" className="cta-button">Start a Project</Link>
       </section>
     </div>
   )
